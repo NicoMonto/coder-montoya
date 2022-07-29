@@ -6,7 +6,7 @@
 }
 
 .navegador ul li:hover {
-    background-color: rgb(4, 54, 29);
+    background-color: rgb(7, 66, 36);
 }
 
 .header {
@@ -151,7 +151,8 @@ span {font-weight: bold;}
     grid-template-areas: "about aside" "aside-2 aside";
     padding: 50px;}
 
-.productos {text-align: center;}
+.productos {text-align: center;
+padding: 50px;}
 
 .lista-de-productos {
     display: flex;
@@ -206,12 +207,30 @@ span {font-weight: bold;}
 .enviar-informacion {
     padding: 50px;
 }
+
+.formulario-contacto {
+    padding: 15px 150px 150px 150px;
+}
+
+.contactanos {
+    text-align: center;
+}
+.typo-contacto {
+    padding: 40px 15px 5px 15px;
+    font-weight: bold;
+ }
+
 footer {background-color: rgb(28, 97, 17);
     text-align: left;
     color: aliceblue;
     padding: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.dropdown {
+    padding: 20px 150px 50px 150px;
+    text-align: center;
+}
+
 
 /*Media Queries*/
 @media screen and (max-width: 768px) {

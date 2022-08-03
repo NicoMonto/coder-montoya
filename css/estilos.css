@@ -50,8 +50,8 @@
 /*Estilos de la grilla HTML*/
 .grilla {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
@@ -85,7 +85,7 @@ nav {
     background-color: rgb(28, 97, 17);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 nav ul {
@@ -93,12 +93,17 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 8px;}
+    margin: 8px;
+    color: aliceblue;
+}
 
 nav ul li a {
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-weight: bold;}
+
+.nav-link {color: aliceblue;}
+
 
 /*Estilos del Header*/
 .div.texto-del-banner {
@@ -106,12 +111,11 @@ nav ul li a {
 }
 header {min-height: 350px;
         text-align: left;
-        padding: 0px;
-    }
-.texto-del-banner {
-    padding: 5px;
-}
+        padding: 0px;}
 
+.texto-des-banner {
+    padding: 0px 0px 0px 158px;
+}
 .imagen-banner-fondo {
     background-image: url(../Imagenes/flowers-bouquet-on-white-background-max-sixe.png);
     background-size: cover;
@@ -120,12 +124,20 @@ header {min-height: 350px;
     display: flex;
     align-items: left;}
 
+.boton-banner {padding: 2px 0px 0px 50px;}
+
+.btn-bd-primary {
+    background-color: rgb(28, 97, 17);
+    border-radius: 5px;
+    color: aliceblue;
+}
+    
 /*Estilos del Main*/
 p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1 {
-    padding: 50px 50px 0px 20px;
+    padding: 50px 50px 0px 158px;
 }
 
 .texto-banner {
@@ -153,6 +165,16 @@ span {font-weight: bold;}
 
 .productos {text-align: center;
 padding: 50px;}
+
+.categoria-de-precios {
+    padding: 20px 0px 0px 0px;
+}
+
+.titulo-productos {
+    padding: 10px;
+    background-color: rgb(28, 97, 17);
+    color: aliceblue;
+}
 
 .lista-de-productos {
     display: flex;
@@ -221,22 +243,32 @@ padding: 50px;}
  }
 
 footer {background-color: rgb(28, 97, 17);
-    text-align: left;
+    text-align: center;
     color: aliceblue;
     padding: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.dropdown {
-    padding: 20px 150px 50px 150px;
-    text-align: center;
+
+.btn{
+    background-color:rgb(28, 97, 17);
+    color: aliceblue;
 }
-
-
+h3 {
+    font-weight: bolder;
+}
 /*Media Queries*/
+
 @media screen and (max-width: 768px) {
     .sobre {grid-template-areas: 
         "about" "aside-2";
         padding: 50px;}}
+
+@media screen and (max-width: 588px) {
+    h1{padding: 20px 20px 20px 50px;}
+    .imagen-banner-fondo {
+        display: none;}
+}
+
 
 @media screen and (max-width: 545px) {
             .sobre {text-align: center;
@@ -250,7 +282,10 @@ footer {background-color: rgb(28, 97, 17);
                 align-items: left;}
 
 @media screen and (max-width: 535px) {
-            h1 {text-align: center;}}
+            h1 {text-align: center;}
+            .imagen-banner-fondo {
+                display: none;}     
+        }
 
 
 @media screen and (max-width: 425px) {
@@ -311,6 +346,8 @@ footer {background-color: rgb(28, 97, 17);
 
 @media screen and (max-width: 1120px){
     .about {padding: 0px;}
+
+    .texto-des-banner {padding: 0px}
 
     .sobre {text-align: center;
         grid-template-areas: 

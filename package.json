@@ -1,0 +1,25 @@
+{
+  "name": "coder-montoya",
+  "version": "1.0.0",
+  "description": "Repositorio para clases de Coderhouse - Nicolas Montoya\r <h1 align=\"center\">Hi 👋, I'm Nicolas Montoya</h1>\r <h3 align=\"center\">I'm a graphic designer</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebascss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoMonto/coder-montoya.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoMonto/coder-montoya/issues"
+  },
+  "homepage": "https://github.com/NicoMonto/coder-montoya#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

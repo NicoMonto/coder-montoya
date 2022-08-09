@@ -1,0 +1,32 @@
+.productos {text-align: center;
+    padding: 50px;}
+    
+    .categoria-de-precios {
+        padding: 20px 0px 0px 0px;
+    }
+    
+    .titulo-productos {
+        padding: 10px;
+        background-color: $color-prim;
+        color: $color-sec;
+    }
+    
+    .lista-de-productos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;}
+    
+    .aside {display: flex;
+        justify-content: space-evenly;
+        text-align: center;}
+    
+    .aside ul {list-style: none;}
+    
+    .aside ul li {display: inline-block;
+        margin: 8px;}
+    
+    .imagen-producto {
+        max-width: 100%;
+        max-height: 100%;
+        width: 500px;
+        height: 500px;}

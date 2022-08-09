@@ -1,0 +1,40 @@
+p{font-family:$typo-flor;}
+h1 {padding: 50px 50px 0px 158px;}
+h2 {font-family:$typo-flor;}
+h3 {font-family:$typo-flor;}
+main {
+    background-color: $color-sec;
+    display: grid;}
+
+    main ul {padding: 0px;}
+
+.sobre {background-color: $color-sec;
+    display: grid;
+    grid-template-areas: "about aside" "aside-2 aside";
+    padding: 50px;}
+
+
+.imagen-logos {
+    max-width: 100%;
+    max-height: 100%;
+    width: 50px;
+    height: 50px;}
+
+.aside-2 {
+    background-size: cover;
+    max-height: fit-content;
+    height: 50vh;
+    display: flex;
+    align-items: left;}
+
+.about {
+    grid-area: about;
+    text-align: left;
+    padding: 50px 10px 20px 200px;}
+
+.about p {
+    max-width: 500px;
+    text-align: left;}
+    .btn{
+        background-color:$color-prim;
+        color: $color-sec;}

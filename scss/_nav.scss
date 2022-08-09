@@ -1,0 +1,23 @@
+nav {
+    padding: $generalpx-1;
+    background-color: $color-prim;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+nav ul {
+    list-style: none;}
+
+nav ul li {
+    display: inline-block;
+    margin: $generalpx-1;
+    color: $color-sec;
+}
+
+nav ul li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;}
+
+.nav-link {color: $color-sec;}

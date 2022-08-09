@@ -1,0 +1,30 @@
+/*Estilos del Header*/
+.div.texto-del-banner {
+    padding: 20px;
+}
+header {min-height: 350px;
+        text-align: left;
+        padding: 0px;}
+
+.texto-des-banner {
+    padding: 0px 0px 0px 158px;
+}
+.imagen-banner-fondo {
+    background-image: url(../Imagenes/flowers-bouquet-on-white-background-max-sixe.png);
+    background-size: cover;
+    max-height: fit-content;
+    height: 50vh;
+    display: flex;
+    align-items: left;}
+
+.boton-banner {padding: 2px 0px 0px 50px;}
+
+.btn-bd-primary {
+    background-color: $color-prim;
+    border-radius: 5px;
+    color: $color-sec;
+}
+
+.texto-banner {
+    padding: 0px 50px 0px 20px;
+}

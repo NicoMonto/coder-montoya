@@ -1,0 +1,48 @@
+/*Animaciones*/
+.navegador ul li {
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-timing-function: ease ;
+}
+
+.navegador ul li:hover {
+    background-color:$color-prim;
+}
+
+.header {
+    animation-name: fade-in;
+    animation-duration: 2s;
+    background-color: $color-sec;
+}
+@keyframes fade-in {
+    0% {transform: translateX(-200px);}
+    100% {transform: translateX(0px);}
+}
+
+.sobre {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+@keyframes fade-in {
+    0% {transform: translateX(-200px);}
+    100% {transform: translateX(0px);}
+}
+
+.imagen-logos {
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-timing-function: ease ;
+}
+.imagen-logos:hover {
+    background-color:$color-prim;
+}
+
+.imagen-producto {
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-timing-function: ease ;
+}
+.imagen-producto:hover {
+    transform:rotate(10deg)
+
+}

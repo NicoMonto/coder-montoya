@@ -268,8 +268,13 @@ main {
 main ul {
   padding: 0px; }
 
+.main-2 {
+  text-align: center; }
+
+.iconos-de-carac {
+  padding-top: 50px; }
+
 .sobre {
-  background-color: white;
   display: grid;
   grid-template-areas: "about aside" "aside-2 aside";
   padding: 50px; }
@@ -291,6 +296,8 @@ main ul {
   grid-area: about;
   text-align: left;
   padding: 50px 10px 20px 200px; }
+  .about .section-sec2 {
+    color: grey; }
 
 .about p {
   max-width: 500px;
@@ -298,6 +305,10 @@ main ul {
 
 .btn {
   background-color: #074224;
+  color: white; }
+
+.btn-2 {
+  background-color: grey;
   color: white; }
 
 .productos {
@@ -335,6 +346,10 @@ main ul {
   width: 500px;
   height: 500px; }
 
+.dropdown {
+  padding: 50px 0px 0px 50px;
+  text-align: center; }
+
 .formulario-completo {
   padding: 50px; }
 
@@ -363,3 +378,35 @@ footer {
   color: white;
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+.red-twitter {
+  color: blue; }
+
+.red-facebook {
+  color: darkblue; }
+
+.red-instagram {
+  color: red; }
+
+.boton, .fondo-primario, .fondo-secundario {
+  font-size: large;
+  padding: 5px;
+  margin: 5px; }
+
+.fondo-primario {
+  background-color: darkgray;
+  color: white; }
+
+.fondo-secundario {
+  background-color: #074224;
+  color: white; }
+
+.imagen-producto {
+  height: 100%;
+  width: 100%;
+  margin: 15px; }
+
+.imagen-lugar {
+  height: 50%;
+  width: 50%;
+  margin: 15px; }

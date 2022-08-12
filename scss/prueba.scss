@@ -8,3 +8,64 @@
 @import "_productos";
 @import "_planilla-contacto";
 @import "_footer";
+
+
+// Maps //
+$redes: (
+    twitter:blue,
+    facebook:darkblue,
+    instagram:red, 
+);
+//recorrido//
+@each $red, $color in $redes {
+    //devolucion//
+    .red-#{$red}{
+        color:$color;
+    }
+}
+
+// Extend //
+.boton {
+    font-size: large;
+    padding: 5px;
+    margin: 5px 
+}
+
+.fondo-primario {
+    @extend .boton;
+    background-color: darkgray;
+    color: $color-sec
+}
+
+.fondo-secundario {
+    @extend .boton;
+    background-color: $color-prim;
+    color: $color-sec
+}
+
+//Mixins//
+@mixin  size ($alto, $ancho, $espaciado) {
+    height: $alto;
+    width: $ancho;
+    margin: $espaciado;
+}
+
+@mixin otro {
+    height: 100%;
+    width: 100%;
+    margin: 15px;
+}
+
+@mixin otro2 {
+    height: 50%;
+    width: 50%;
+    margin: 15px;
+}
+
+.imagen-producto {
+    @include otro;
+}
+
+.imagen-lugar {
+    @include otro2;
+}

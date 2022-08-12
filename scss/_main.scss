@@ -8,7 +8,15 @@ main {
 
     main ul {padding: 0px;}
 
-.sobre {background-color: $color-sec;
+.main-2 {
+        text-align: center;
+      }
+      
+    
+.iconos-de-carac {
+    padding-top: 50px;
+}
+.sobre {
     display: grid;
     grid-template-areas: "about aside" "aside-2 aside";
     padding: 50px;}
@@ -30,7 +38,10 @@ main {
 .about {
     grid-area: about;
     text-align: left;
-    padding: 50px 10px 20px 200px;}
+    padding: 50px 10px 20px 200px;
+    .section-sec2 {
+        color: grey; }
+}
 
 .about p {
     max-width: 500px;
@@ -38,3 +49,7 @@ main {
     .btn{
         background-color:$color-prim;
         color: $color-sec;}
+    .btn-2 {
+            background-color: grey;
+            color: white;
+          }

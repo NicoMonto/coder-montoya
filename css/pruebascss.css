@@ -72,11 +72,12 @@ h3 {
     height: 70px;
     flex-direction: column; } }
 
+
 @media screen and (max-width: 1570px) {
   .imagen-producto {
     height: 200px;
-    width: 200px; } }
-
+    width: 200px; }
+  }
 @media screen and (max-width: 1120px) {
   .about {
     padding: 0px; }
@@ -96,6 +97,20 @@ h3 {
   p {
     text-align: center; } }
 
+@media screen and (max-width: 650px) {
+  .header {
+    display:none } }
+
+@media screen and (min-width:1000) {
+  .sobre {
+    display: none;
+  }
+
+  .h3 {
+    text-align: left;
+  }
+  
+}    
 @media screen and (max-width: 735px) {
   .imagen-producto {
     height: 150px;
@@ -298,7 +313,7 @@ main ul {
 .about {
   grid-area: about;
   text-align: left;
-  padding: 50px 10px 20px 200px; }
+  padding: 50px 10px 20px 20px; }
   .about .section-sec2 {
     color: grey; }
 
